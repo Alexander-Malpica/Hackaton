@@ -1,0 +1,99 @@
+
+/* Background */
+#background {
+  background-size: cover;
+  background-color: #333;
+}
+
+/* Banner */
+.banner {
+  background: url('hands.jpg');
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  letter-spacing: 3px;
+}
+
+/* Nav Bar */
+#bar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#bar ul li a{
+  display: flex;
+  color: white;
+  padding: .2em 1em;
+  letter-spacing: 3px;
+  width: 15em;
+  height: 7em;
+  border: 1px solid #bbb;
+  border-radius: .5em;
+  background-color: #61d2c1;
+  text-decoration: none;
+  margin-top: .3em;
+  justify-content: center;
+  align-items: center;
+}
+#bar li a:hover {
+  background-color: #bc2f43;
+  font-weight: bold;
+  color: #61d2c1;
+}
+.leftimg {
+  float: left;
+}
+
+/* Body */
+#map {
+  color: #61d2c1;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+/* Actividades */
+#row {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 18px;
+  margin-left: 2em;
+}
+#left {
+  border: 4px thin #000076;
+  border-radius: 2px;
+  background-color: #bc2f43;
+  padding: 2px;
+  text-align: justify;
+  width: 40%;
+  float: left;
+  position: absolute;
+  margin-left: 3em;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  color: white;
+}
+#right {
+  border: 4px thin #000076;
+  border-radius: 2px;
+  background-color: #bc2f43;
+  padding: 2px;
+  text-indent: 2em;
+  width: 40%;
+  float: right;
+  position: absolute;
+  text-align: justify;
+  margin-top: 3em;
+  margin-left: 43em;
+  margin-bottom: 1.5em;
+  color: white;
+}

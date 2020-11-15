@@ -1,0 +1,55 @@
+/* color blue = #61d2c1
+color red = #bc2f43
+color grey = #333333 */
+
+/* Background */
+#background {
+  background-size: cover;
+  background-color: #333;
+}
+
+/* Banner */
+.banner {
+  background: url('hands.jpg');
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  letter-spacing: 3px;
+}
+
+/* Nav Bar */
+#bar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#bar ul li a{
+  display: flex;
+  color: white;
+  padding: .2em 1em;
+  letter-spacing: 3px;
+  width: 15em;
+  height: 7em;
+  border: 1px solid #bbb;
+  border-radius: .5em;
+  background-color: #61d2c1;
+  text-decoration: none;
+  margin-top: .3em;
+  justify-content: center;
+  align-items: center;
+}
+#bar li a:hover {
+  background-color: #bc2f43;
+  font-weight: bold;
+  color: #61d2c1;
+}
+.leftimg {
+  float: left;
+}
